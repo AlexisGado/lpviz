@@ -256,8 +256,8 @@ export function getLineCoordinates(
   x2: number;
   y2: number;
 } {
-  const minCoord = MIN_VARIABLES_VALUE;
-  const maxCoord = MAX_VARIABLES_VALUE;
+  const minCoord = MIN_VARIABLES_VALUE * 2;
+  const maxCoord = MAX_VARIABLES_VALUE * 2;
 
   const [coefficients, constant] = getExpressionCoefficients(expression);
 

@@ -56,13 +56,13 @@ function Canvas() {
         const y2 = constraintCoordinates.y2;
 
         const x3 =
-          constraintCoordinates.x1 + normalVector.x2 * MAX_VARIABLES_VALUE * 2;
+          constraintCoordinates.x1 + normalVector.x2 * MAX_VARIABLES_VALUE * 4;
         const y3 =
-          constraintCoordinates.y1 + normalVector.y2 * MAX_VARIABLES_VALUE * 2;
+          constraintCoordinates.y1 + normalVector.y2 * MAX_VARIABLES_VALUE * 4;
         const x4 =
-          constraintCoordinates.x2 + normalVector.x2 * MAX_VARIABLES_VALUE * 2;
+          constraintCoordinates.x2 + normalVector.x2 * MAX_VARIABLES_VALUE * 4;
         const y4 =
-          constraintCoordinates.y2 + normalVector.y2 * MAX_VARIABLES_VALUE * 2;
+          constraintCoordinates.y2 + normalVector.y2 * MAX_VARIABLES_VALUE * 4;
 
         // Draw rectangle
         ctx.beginPath();
